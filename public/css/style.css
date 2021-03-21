@@ -1,0 +1,337 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+  
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+body {
+    line-height: 1.9;
+    display: flex;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    height: 100%;
+    width: 20%;
+   background-color: rgb(248, 245, 245);
+    margin: 0;
+}
+
+.Mid{
+    padding-right:30px ;
+    height: 100%;
+    width: 45%;
+    margin: 0;
+    background-color: rgb(248, 245, 245);
+}
+
+.Right{
+    height: 100%;
+    width:35%;
+    margin: 0;
+    background-color: rgb(248, 245, 245);
+    padding-right:30px ;
+}
+
+.Navheading{
+    padding: 11px 0 11px 50px;
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.NavheadingContainer{
+    width: 100%;
+    padding: 0px 0 20px 0;
+}
+
+H3{
+    padding: 0 20px 0 20px ;
+}
+
+H2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    font-family: 'Lato', sans-serif;
+}
+
+H1{
+    font-size:3.2rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-family: 'Lato', sans-serif;
+}
+
+.tittleBar{
+    padding: 25px 0 0 10px;
+}
+
+.form-control {
+    border-radius: 7px;
+    border: 1.5px solid #000000;
+    width:98%;
+    height: 45px;
+    background-color:rgb(189, 189, 189);
+
+}
+.searchBar{
+
+    padding:15px 0 15px 10px;
+}
+
+.hzbar{
+    font-size: 1.65rem;
+    display: flex;
+}
+
+.hzInner{
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+}
+
+.hzInner1{
+    padding: 10px 20px 10px 10px;
+    font-weight: 700;
+    color: rgb(255,215,0)
+}
+
+.hzInner2{
+    font-size: 2.3rem;
+    padding: 15px 0 10px 10px;
+}
+
+.profile{
+    display: flex;
+ justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+.profileText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.profileInfo{
+    padding: 10px 20px 10px 20px;
+}
+
+.extra{
+    width: 95px;
+}
+.Calender{
+    font-size: 1.7rem;
+    padding: 23px 23px 0 23px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.weeks{
+    display: flex;
+    justify-content: space-between;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(114, 114, 114);
+}
+
+.CalenderDate{
+    font-size: 1.7rem;
+    padding: 10px 10px 0px 23px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 3;
+}
+
+.ButtonDiv{
+    padding: 10px 10px 13px 23px;
+}
+.TasksButton{
+    border-radius: 7px;
+    border: none;
+    width: 98%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.Card{
+    width: 90%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(202, 202, 202) ;
+    padding: 15px 25px 10px 25px;
+    margin: 15px 10px 15px 10px;
+    border-radius: 10px;
+}
+
+.InfoTittle{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.icon{
+    width:30px;
+    height:30px;
+}
+
+.icon2{
+    width:20px;
+    height:20px;
+    justify-self:flex-end;
+}
+
+.profileImage2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 1px black;
+}
+
+.profileImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: solid 1px black;
+}
+
+.logo{
+    height:135px;
+    width:135px;
+    opacity: 0;
+    border-radius: 100%;
+    padding:20px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+.Container{
+   display: flex;
+   flex-direction: column;
+   padding: 0 0 0 0px;
+    font-weight: 560;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.Progress{
+    border: solid 2.5px black;
+}
+
+.Container2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+     font-weight: 560;
+     font-size: 1.5rem;
+     font-family: 'Lato', sans-serif;
+ }
+
+ .Card2{
+    width: 95%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,215,0);
+    padding: 15px 25px 10px 25px;
+    margin: 15px 10px 15px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  
