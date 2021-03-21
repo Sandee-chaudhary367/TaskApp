@@ -1,5 +1,7 @@
 const User=require("../model/user");
 const jwt=require("jsonwebtoken");
+
+//to autherise the user to check it can do certain tasks or not
 const auth=async function(req,res,next){
    try {
        const token=localStorage.getItem("Token");
