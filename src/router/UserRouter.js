@@ -4,7 +4,7 @@ const router=new express.Router();
 const path = require('path');
 const auth=require("../middleware/auth")
 
-
+//to create the new user
 router.post('/users', async (req, res) => {
     try{
         if (typeof localStorage === "undefined" || localStorage === null) {
@@ -21,9 +21,12 @@ router.post('/users', async (req, res) => {
     }
 })
 
+//getting the user details in json
 router.get("/users/the/json",auth,async (req, res) => {
     res.send(req.user);
 });
+
+//routes for user login
 router.post('/users/login', async (req, res) => {
     try {
         if (typeof localStorage === "undefined" || localStorage === null) {
